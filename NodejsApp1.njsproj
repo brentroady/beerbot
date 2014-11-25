@@ -30,9 +30,12 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="config.js" />
     <Compile Include="server.js" />
+    <Content Include=".gitignore" />
     <Content Include="beers.json" />
     <Content Include="package.json" />
+    <Content Include="Procfile" />
     <Content Include="qwantz.txt" />
     <Content Include="README.md" />
   </ItemGroup>

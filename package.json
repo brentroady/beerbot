@@ -1,7 +1,7 @@
 {
-  "name": "NodejsApp1",
+  "name": "BeerBot",
   "version": "0.0.0",
-  "description": "NodejsApp1",
+  "description": "BeerBot",
   "main": "server.js",
   "author": {
     "name": "broady",
@@ -9,9 +9,7 @@
   },
   "dependencies": {
 	"express": "~4.9.x",
-    "node-restclient": "0.0.1",
-    "twit": "^1.1.18",
-	"markov": "0.0.7"
+    "twit": "^1.1.18"
   },
   "engines": {
     "node": "0.10.x"
